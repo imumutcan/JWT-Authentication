@@ -1,0 +1,15 @@
+package com.umut.project.database.jwtauthapi;
+
+import org.springframework.boot.SpringApplication;
+import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.scheduling.annotation.EnableScheduling;
+
+@SpringBootApplication
+@EnableScheduling
+public class JwtAuthApiApplication {
+
+    public static void main(String[] args) {
+        SpringApplication.run(JwtAuthApiApplication.class, args);
+    }
+
+}

@@ -1,0 +1,7 @@
+package com.umut.project.database.jwtauthapi.exception;
+
+public class UserNotFoundException extends ResourceNotFoundException{
+    public UserNotFoundException(String message) {
+        super(message);
+    }
+}
